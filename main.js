@@ -3,7 +3,7 @@ const resetBtn = document.querySelector("#reset");
 const gridBtn = document.querySelector("#changeGrid");
 
 function resizeGrid() {
-  let sketchSize = prompt("Enter 1 to 100 to resize sketch");
+  let sketchSize = prompt("Enter 1 to 50 to resize sketch");
   makeRows(sketchSize, sketchSize);
 }
 
